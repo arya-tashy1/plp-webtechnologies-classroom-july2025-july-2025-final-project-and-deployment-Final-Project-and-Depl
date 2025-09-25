@@ -1,90 +1,87 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🧶 Crochet Creations
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+A responsive, accessible, and interactive multi-page website showcasing beautiful crochet work. Built using HTML5, CSS3, and JavaScript, this site includes modern features such as filtering, lightbox, counters, a testimonial carousel, dark/light mode, and more!
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 🌟 Live Demo
 
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+> **[View the website live here!](YOUR_LIVE_SITE_URL_HERE)**  
+> _(Replace with your GitHub Pages, Netlify, or Vercel URL after deployment)_
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 📂 Project Structure
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+```
+/
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── images/
+│   └── (place all your image files here)
+├── index.html
+├── about.html
+├── gallery.html
+├── contact.html
+└── README.md
+```
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## 🖼️ How to Customize
 
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+1. **Add your crochet images** to the `images/` folder. Update the `<img src="...">` paths and `alt` text as needed in your HTML files.
+2. **Edit site content** (name, about, testimonials, etc.) directly in the HTML files.
+3. **Filter categories** in the gallery can be personalized by changing `data-category` attributes and filter buttons.
+4. **Change your contact/social links** in `contact.html`.
 
 ---
 
-## Deliverables
+## 🚀 Features
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- **Responsive design** (mobile-first, CSS Grid/Flexbox, media queries)
+- **Semantic HTML5 structure**
+- **Consistent navigation and footer**
+- **Accessible:**
+  - Keyboard navigation
+  - ARIA labels
+  - Focus outlines
+- **Gallery with filtering and lightbox**
+- **Animated counters**
+- **Testimonial slider/carousel**
+- **Scroll-triggered animations**
+- **Contact form with JS validation**
+- **Dark/Light mode toggle** (remembers preference)
+- **Scroll-to-top button**
 
 ---
 
-## Outcome
+## 🛠️ How to Run & Deploy
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+1. **Clone or download** this repository.
+2. Open `index.html` in your browser to view locally.
+3. To deploy:
+   - **GitHub Pages:** Push to your `main` branch, go to repo Settings → Pages, and set branch to `main`.
+   - **Netlify/Vercel:** Connect your repo and deploy, or drag-and-drop the folder.
+4. Copy your live URL and update it at the top of this README.
+
+---
+
+## 📝 Credits & Attributions
+
+- **Template & Code:** Developed by [Your Name]
+- **Images:** All crochet work & images are owned by [Your Name] _(or cite your sources if using stock images)_
+- **Icons/Graphics:** [Icons8](https://icons8.com/), [Unsplash](https://unsplash.com/) _(if applicable)_
+
+---
+
+## 📧 Contact
+
+For feedback or commissions, use the [Contact page](contact.html)  
+Or email: your@email.com
+
+---
+
+> _Happy crocheting and coding!_

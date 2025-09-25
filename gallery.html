@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Gallery | Crochet Creations</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Crochet Creations</h1>
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+        <a href="services.html">Services</a>
+    </nav>
+  </header>
+  <main>
+    <h2 class="reveal-on-scroll">Gallery</h2>
+    <p class="reveal-on-scroll">Browse a selection of my favorite crochet projects. Filter by type or click a photo to enlarge!</p>
+    <div class="gallery-filter">
+      <button class="active" data-category="all">All</button>
+      <button data-category="bags">Bags</button>
+      <button data-category="decor">Home Decor</button>
+      <button data-category="wearable">Wearable</button>
+    </div>
+    <div class="gallery-grid">
+      <img src="images/crochet1.jpg" alt="Crochet colorful bag" data-category="bags">
+      <img src="images/crochet2.jpg" alt="Crochet amigurumi bear" data-category="bags">
+      <img src="images/crochet3.jpg" alt="Crochet floral keychain" data-category="decor">
+      <img src="images/crochet4.jpg" alt="Crochet hat" data-category="wearable">
+      <img src="images/crochet5.jpg" alt="Crochet birds" data-category="decor">
+      <img src="images/crochet6.jpg" alt="Crochet hat" data-category="wearable">
+      <img src="images/crochet7.jpg" alt="Crochet coasters" data-category="decor">
+      <img src="images/crochet8.jpg" alt="Crochet top" data-category="wearable">
+    </div>
+    <!-- Lightbox Modal for enlarged images -->
+    <div id="lightbox" class="lightbox" style="display:none;">
+      <span class="close" tabindex="0" aria-label="Close">&times;</span>
+      <img class="lightbox-content" src="" alt="">
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 AryaTashy Crochet Creations &mdash; HandMade with yarn &hearts;
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
